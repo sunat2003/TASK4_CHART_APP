@@ -9,14 +9,12 @@ let currentUser="User1";
 
 function user1Click(){
   currentUser=user1.innerText;
-  console.log(currentUser);
   user1.classList.add("toggle-btn");
   user2.classList.remove("toggle-btn");
 }
 
 function user2Click(){
   currentUser=user2.innerText;
-  console.log(currentUser);
   user2.classList.add("toggle-btn");
   user1.classList.remove("toggle-btn");
 }
